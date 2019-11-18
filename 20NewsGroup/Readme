@@ -1,0 +1,22 @@
+The following folder contains file to run SCDV with polysemy corpus
+
+Directory Structure : 
+
+* data : contains the 20NewsGroup data along with polysemy word corpus 
+
+* adagram_julia : Contain the code for annotating sense using adagram
+
+* Word_Vectors : Contains the code to create word embeddings
+
+* Word_Topic_Vectors : Contains the code to create word topic vectors with redcution code 
+
+* SVM_classifier : Code to run the linear SVM on the generated embeddings
+
+* CNN : code to run the CNN experiment on the generated word embeddings
+
+
+Run the codes in the following order : 
+
+Adagram -> Word_vectors -> Word_topic_Vectors
+then either SVM_classier or CNN . 
+

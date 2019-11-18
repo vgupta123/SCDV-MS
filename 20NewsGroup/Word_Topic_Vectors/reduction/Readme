@@ -1,0 +1,9 @@
+The folder contains the code for reduction 
+the code takes the file wtv created by the script create_wtv.py
+
+
+How to run ? 
+ 
+	python3 reduction.py [word embedding dimension] [number of cluster] [final dimension reduction] [1 if polysemy corpus is used else 0]
+	eg - python3 reduction.py 200 60 2000 0
+

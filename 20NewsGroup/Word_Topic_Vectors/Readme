@@ -1,0 +1,19 @@
+The folder contains the code to generate Word Topic vectors and carry out reduction if recquired
+Two scripts are present to run the code on polysemy / non polysemy corpus 
+
+Files : 
+
+create_wtv.py 			  : To create WTV using polysemy corpus 
+create_wtv_nonpolysemy.py : To create WTV using non polysemy corpus
+
+How to run ?
+
+	python3 create_wtv [word embedding dimension] [number of clusters] [embedding choice] [sparsity]
+	eg - python3 create_wtv.py 200 60 doc2vecc 0.3
+		 or
+		 python3 create_wtv_nonpolysemy.py 200 60 doc2vecc 0.3
+
+		 or
+		 python3 create_wtv.py 200 60 word2vec 0.3
+		 or
+		 python3 create_wtv_nonpolysemy.py 200 60 word2vec 0.3
