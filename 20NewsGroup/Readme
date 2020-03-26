@@ -17,6 +17,7 @@ Directory Structure :
 
 Run the codes in the following order : 
 
-Adagram -> Word_vectors -> Word_topic_Vectors
+Adagram (already done and data created)
+start from here -> Word_vectors -> Word_topic_Vectors
 then either SVM_classier or CNN . 
 
