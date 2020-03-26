@@ -7,9 +7,10 @@ create_wtv.py 			  : To create WTV using polysemy corpus
 create_wtv_nonpolysemy.py : To create WTV using non polysemy corpus
 
 How to run ?
-
-	python3 create_wtv [word embedding dimension] [number of clusters] [embedding choice] [sparsity]
-		eg - 
+		 general command -
+	         python3 create_wtv [word embedding dimension] [number of clusters] [embedding choice] [sparsity]
+		 
+		 eg - 
 		 python3 create_wtv.py 200 60 doc2vecc 0.3 (for polysemy corpus with doc2vecC word embedding)
 		 or
 		 python3 create_wtv_nonpolysemy.py 200 60 doc2vecc 0.3 (for non-polysemy corpus with doc2vecC word embedding)
