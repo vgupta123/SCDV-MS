@@ -21,11 +21,14 @@ $ cd doc2vecC
 $ sh go_polysemy_20news_polysemy.sh 
 # Word2Vec.py takes word vector dimension as an argument. you can input a dimension of 200.
 ```
+
 Get word topic vectors for all the word vectors and sparse GMM (read local readMe for more details):
 ```sh
 $ cd Word_Topic_Vectors
 $ python3 create_wtv.py 200 60 doc2vecc 0.3
 # create_wtv.py takes word vector dimension, number of clusters as arguments, type of embeddings and sparsity threshold. We took word vector dim 200, 60 as number of clusters, doc2vecc train word-vectors and sparsity threshold of 0.3
+```
+
 Get Sparse Document Vectors (SCDV) for documents in train and test set and accuracy of prediction on test set (read local readMe for more details):
 ```sh
 $ cd SVM_classifier
