@@ -12,7 +12,7 @@ There are 2 folders named 20news and Reuters which contains code related to mult
 #### 20Newsgroup
 Change directory to 20news for experimenting on 20Newsgroup dataset and all train and test data files (both annotated and non-annoated with adagram-julia are there) as follows:
 ```sh
-$ cd 20news
+$ cd 20NewsGroup
 ```
 Get word vectors (with Doc2VecC on polysemous corpus) for all words in vocabulary (you can also create other word embedding by following local readme):
 ```sh
@@ -34,7 +34,7 @@ $ cd ../
 Get Sparse Document Vectors (SCDV) for documents in train and test set and accuracy of prediction on test set (read local readMe for more details):
 ```sh
 $ cd SVM_classifier
-$ python SCDV.py 200 60
+$ python SVM.py 200 60
 $ cd ../
 # SCDV.py takes word vector dimension and number of clusters as arguments. We took word vector dimension as 200 and number of clusters as 60.
 ```
