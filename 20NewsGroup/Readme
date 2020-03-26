@@ -4,7 +4,7 @@ Directory Structure :
 
 * data : contains the 20NewsGroup data along with polysemy word corpus 
 
-* adagram_julia : Contain the code for annotating sense using adagram
+* adagram_julia : Contain the code for annotating sense using adagram (not yet updated due to licence)
 
 * Word_Vectors : Contains the code to create word embeddings
 
