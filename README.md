@@ -3,7 +3,8 @@
 
 ## Introduction
   - For text classification and information retrieval tasks, text data has to be represented as a fixed dimension vector. 
-  - We propose important modification to the simple feature construction technique named **Sparse Composite Document Vector (SCDV)** [1]
+  - We propose important modification to the simple feature construction technique named [**Sparse Composite Document Vector (SCDV)**](http://aclweb.org/anthology/D17-1069)
+  - Our proposed technique improve SCDV by ultizing multi-sense word embedding. For details about the modifications, see our ECAI paper: [**Improving Document Classification with Multi-Sense Embeddings**](https://arxiv.org/pdf/1911.07918.pdf)
   - We demonstrate our method through experiments on multi-class classification on 20newsgroup dataset and multi-label text classification on Reuters-21578 dataset. 
 
 ## Testing
@@ -52,7 +53,22 @@ Minimum requirements:
 ## References
 [1] Mekala, Dheeraj, Vivek Gupta, Bhargavi Paranjape, and Harish Karnick. "SCDV: Sparse Composite Document Vectors using soft clustering over distributional representations." In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pp. 659-669. 2017
 
-    Note: You neednot download 20Newsgroup or Reuters-21578 dataset. All datasets are present in their respective directories.
+## Recommended Citations
+```sh
+@inproceedings{gupta2020psif,
+  title={Improving Document Classification with Multi-Sense Embeddings},
+  author={Gupta, Vivek and Saw, Ankit and Nokhiz, Pegah and Gupta, Harshit and Talukdar, Partha},
+  booktitle={Proceedings of the European Conference on Artificial Intelligence},
+  year={2020}
+}
+@inproceedings{mekala2017scdv,
+  title={SCDV: Sparse Composite Document Vectors using soft clustering over distributional representations},
+  author={Mekala, Dheeraj and Gupta, Vivek and Paranjape, Bhargavi and Karnick, Harish},
+  booktitle={Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
+  pages={659--669},
+  year={2017}
+}
+```
 
-[//]: # (We used SGMl parser for parsing Reuters-21578 dataset from  https://gist.github.com/herrfz/7967781)
+Note: You need not download the orignal 20Newsgroup or Reuters-21578 dataset. The annotated datasets using AgaGram is also available in data directory. All other datasets are also present in their respective directories. We used SGMl parser for parsing Reuters-21578 dataset from [here](https://gist.github.com/herrfz/7967781)
 
