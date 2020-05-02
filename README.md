@@ -55,7 +55,7 @@ Minimum requirements:
 
 ## Recommended Citations
 ```sh
-@inproceedings{gupta2020psif,
+@inproceedings{gupta2020multisense,
   title={Improving Document Classification with Multi-Sense Embeddings},
   author={Gupta, Vivek and Saw, Ankit and Nokhiz, Pegah and Gupta, Harshit and Talukdar, Partha},
   booktitle={Proceedings of the European Conference on Artificial Intelligence},
