@@ -11,7 +11,7 @@
 There are 2 folders named 20news and Reuters which contains code related to multi-class classification on 20Newsgroup dataset and multi-label classification on Reuters dataset.
 
 #### 20Newsgroup
-Change directory to 20news for experimenting on 20Newsgroup dataset and all train and test data files (both annotated and non-annoated with adagram-julia are there) as follows:
+Change directory to ```20NewsGroup``` for experimenting on 20Newsgroup dataset and all train and test data files (both annotated and non-annoated with adagram-julia are there) as follows:
 ```sh
 $ cd 20NewsGroup
 ```
@@ -40,7 +40,7 @@ $ cd ../
 # SCDV.py takes word vector dimension and number of clusters as arguments. We took word vector dimension as 200 and number of clusters as 60.
 ```
 #### Reuters
-Change directory to Reuters for experimenting on Reuters-21578 dataset. Similar to 20newsgroup folder, read local readMe for more details:
+Change directory to ```Reuters``` for experimenting on Reuters-21578 dataset. Similar to ```20newsgroup folder```, read local readMe for more details.
 
 ## Requirements
 Minimum requirements:
