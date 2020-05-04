@@ -2,7 +2,7 @@ The following folder contains file to run SCDV with polysemy corpus
 
 Directory Structure :
 
-1. adagram_julia : Contains the code to create dataset and annotated files.
+1 . adagram_julia : Contains the code to create dataset and annotated files.
 
 2 . Word_Vectors : Contains the code to create word embeddings
 
