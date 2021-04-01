@@ -4,7 +4,7 @@
 ## Introduction
   - For text classification and information retrieval tasks, text data has to be represented as a fixed dimension vector. 
   - We propose important modification to the simple feature construction technique named [**Sparse Composite Document Vector (SCDV)**](http://aclweb.org/anthology/D17-1069)
-  - Our proposed technique improve SCDV by ultizing multi-sense word embedding. For details about the modifications, see our ECAI paper: [**Improving Document Classification with Multi-Sense Embeddings**](https://arxiv.org/pdf/1911.07918.pdf)
+  - Our proposed technique improve SCDV by ultizing multi-sense word embedding. For details about the modifications, see our ECAI paper: [**Improving Document Classification with Multi-Sense Embeddings**](https://ecai2020.eu/papers/391_paper.pdf)
   - We demonstrate our method through experiments on multi-class classification on 20newsgroup dataset and multi-label text classification on Reuters-21578 dataset. 
 
 ## Testing
